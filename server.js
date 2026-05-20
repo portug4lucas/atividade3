@@ -11,6 +11,10 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
 
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/public/pages/index.html');
+});
+
 app.use('/users', usersRouter);
 
 app.listen(PORT, () => {
