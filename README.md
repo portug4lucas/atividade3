@@ -32,7 +32,7 @@ PORT=3000
 node server.js
 ```
 
-4. Acesse em [`http://localhost:3000`](https://atividade3-4.onrender.com)
+4. Acesse em (https://atividade3-4.onrender.com)
 
 ## Endpoints
 
